@@ -14,7 +14,6 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     public final static String EXTRA_MESSAGE = "netcse.devandroidtraining.MESSAGE";
-
     EditText editText;
 
     private TextWatcher mTextWatcher = new TextWatcher() {
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             b.setEnabled(true);
         }
     }
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
