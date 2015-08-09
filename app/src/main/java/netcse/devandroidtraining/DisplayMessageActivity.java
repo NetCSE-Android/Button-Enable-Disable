@@ -21,6 +21,11 @@ public class DisplayMessageActivity extends AppCompatActivity {
         textView.setTextSize(20);
         textView.setText(message);
         setContentView(textView);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        // If your minSdkVersion is 11 or higher, instead use:
+        // getActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     @Override
