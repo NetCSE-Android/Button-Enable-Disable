@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         // see what peculiar is shown
         // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
 
